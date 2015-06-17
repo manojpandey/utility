@@ -21,8 +21,8 @@ typedef long long ll;
 #define sz(a) int((a).size()) 
 #define pb push_back 
 #define all(c) (c).begin(),(c).end() 
-#define PRINTesent(c,x) ((c).find(x) != (c).end()) 
-#define cPRINTesent(c,x) (find(all(c),x) != (c).end()) 
+#define present(c,x) ((c).find(x) != (c).end()) 
+#define cpresent(c,x) (find(all(c),x) != (c).end()) 
 #define tr(container, it) for(typeof(container.begin()) it = container.begin(); it != container.end(); it++) 
 #define rep(i,n) for (i=0; i<n ; i++)
 #define rep1(i,n) for (i=1; i<=n ; i++)
